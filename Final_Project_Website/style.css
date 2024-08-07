@@ -49,11 +49,11 @@
   .buttons {
       margin-top: 10px;
       text-decoration: none;
-      background:#6d412a;
+      background:#7d5e4d;
       border-radius: 20px;
       padding: 10px 20 px;
       margin-right: 30px;
-      border: 2px solid #6d412a;
+      border: 2px solid #bc805f;
 
   }
   
@@ -61,3 +61,4 @@
       height:10px auto;
       margin-right: 10px; 
   }
+
