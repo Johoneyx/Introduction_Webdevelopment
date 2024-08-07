@@ -1,0 +1,41 @@
+body {
+    /* Pastel green gradient background */
+    background: linear-gradient(to right, #a8e6cf 0%, #dcedc1 50%, #ffd3b6 100%);
+    /* Cursive and playful font */
+    font-family: 'Pacifico', cursive;
+    color: #333;
+    padding: 20px;
+}
+
+/* Ensure you import the font in your HTML or CSS */
+/* For HTML, add this line in the <head> section */
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+/* For CSS, add this line at the top of your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+/* Container for images */
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts the spacing between images */
+}
+
+/* Style for each image */
+/* Style for each image */
+.image-container img {
+    width: 200px; /* Set a fixed width for all images */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: contain; /* Ensures the entire image is visible, may introduce letterboxing */
+    margin: auto; /* Centers the image within its container */
+}
+
+
+.heart-list {
+    list-style: none; /* Removes default bullet points */
+    padding-left: 0; /* Removes default padding */
+}
+
+.heart-list li::before {
+    content: "❤️ "; /* Adds a heart before each list item */
+    padding-right: 8px; /* Adds some space between the heart and the list item text */
+}
